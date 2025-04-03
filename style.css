@@ -1,0 +1,175 @@
+body{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+    width: 100%;
+    }
+
+p{
+   font-size: 18px;
+   color: #3b506c;
+}
+
+img{
+      display: block;
+      max-width: 100%;
+}
+
+header{
+    padding: 30px 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+nav img{
+     width: 150px;
+}
+nav ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none ;
+        display: flex;
+    }
+nav ul li{
+        margin:0 0 0 25px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        color:#3b506c;
+     }
+
+      /* ..............banner.......... */
+
+.banner{
+        text-align: center;
+        color:#3b506c ;
+     }
+
+.banner h1{
+        font-size: 60px;
+        margin: 90px 0px 0px 0px;
+     }
+
+.banner h1 span{
+        color:#0c66ff ;
+     }
+
+.banner img{
+        width: 50%;
+        margin: auto;
+     }
+
+.banner2{
+      display: flex;
+     }
+     
+.item{
+      width: 50%;
+      padding: 0px 25px 0px 25px;
+     }
+
+.left{
+      text-align: right;
+     }
+     
+.item h1{
+      font-size:40px ;
+      color: #3b506c;
+     }
+
+.item h1{
+      color: red;
+     }
+ 
+/* ...........Service............ */
+
+.service-section{
+      margin:70px 30px 70px 30px ; 
+     }
+
+.service{
+      display: flex;
+      gap: 20px;
+     }
+
+.service-item{
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      padding: 20px 20px 20px 20px;
+      border-radius: 5px;
+     }
+
+.service-item img {
+      height: 250px;
+     }
+
+.service-item h4{
+      font-size: 25px;
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+     }
+     .service-item p{
+          text-align: justify;
+     }
+
+/* ...........Footer............... */
+
+.footer{
+      background-color: #3b506c;
+      color: white;
+      text-align: center;
+      padding:100px 15%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 70%;
+      display: flex;
+     }
+     .footer div{
+          text-align: center;
+     }
+     .col-2{
+          flex-grow: 2;
+     }
+     .footer div h3{
+          font-weight: 300;
+          margin-bottom: 30px;
+          letter-spacing: 1px;
+           
+     }
+    .col-1 a{
+     display: block;
+     text-decoration: none;
+     margin-bottom: 10px;
+     color: #efefef;
+    } 
+    form input {
+     width: 350px;
+     height: 35px;
+     border-radius: 4px;
+     text-align: center;
+     margin: 20px;
+     outline: none;
+     border: none;
+    }
+    form button{
+     background: transparent;
+     border: 2px solid white;
+     border-radius: 30px;
+     color: white;
+     padding: 10px 30px;
+     font-size: 15px;
+     cursor: pointer;
+    }
+    .col-3{
+     color: #efefef;
+    }
+    .icons i{
+     font-size: 25px;
+     margin: 10px;
+     cursor: pointer;
+    }
